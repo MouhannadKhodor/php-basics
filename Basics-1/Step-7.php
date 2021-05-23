@@ -13,15 +13,10 @@
     <br/>
     <br/>
     <?php
-        $course_name = 'devTools';
-        $enrolled_students = 30;
-        $price = 3500;
-        $on_discount = true;
-
-        echo 'Course Title: ' .$course_name.'<br/>'.
-        'Enrolled Students: ' .$enrolled_students.'<br/>'.
-        'Course price: ' .$price.'<br/>'.
-        'Course on discount: ' .$on_discount.'<br/>';
+        $birth_year = 1998;
+        $current_year = 2021;
+        if (($current_year-$birth_year) >= 18) echo 'you can drive';
+        else {echo 'you can\'t drive yet';}
     ?>
 </body>
 

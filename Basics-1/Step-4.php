@@ -13,8 +13,20 @@
     <br/>
     <br/>
     <?php
-        echo "Hello world i'm in trouble",
-        print "I am getting errors but I can't see the errors"
+        $name = 'Moe';
+        $position = 'developper';
+        $github_url = 'http://github_url';
+        echo '<br/>';
+
+        echo "Hello, I'm ".$name. "I'm a ".$position." please check my github link" .$github_url;
+        echo '<br/>';
+
+        echo "Hello, I'm $name, I'm a $position please check my github link $github_url";
+        echo '<br/>';
+
+        echo 'Hello, I\'m $name, I\'m a '.$position.' please check my github link '.$github_url;
+        echo '<br/>';
+        
     ?>
 </body>
 
